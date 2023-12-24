@@ -1,0 +1,3 @@
+C:/Users/RIG 3/Desktop/proga/lab3/cmake-build-debug/CMakeFiles/sound_processor.dir
+C:/Users/RIG 3/Desktop/proga/lab3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/RIG 3/Desktop/proga/lab3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
