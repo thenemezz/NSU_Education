@@ -1,3 +1,0 @@
-mute 0 5
-insert $2 10 30
-mix $2 10
