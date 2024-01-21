@@ -1,0 +1,9 @@
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/CMakeFiles/Life.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/CMakeFiles/test.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/googletest/googletest/CMakeFiles/test.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/googletest/googletest/CMakeFiles/edit_cache.dir
+/Users/thenemez/Desktop/proga/cpp_labs/Life/cmake-build-debug/googletest/googletest/CMakeFiles/rebuild_cache.dir

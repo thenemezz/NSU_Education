@@ -1,0 +1,3 @@
+/Users/thenemez/Desktop/proga/cpp_labs/tests_labs/lab1_1/cmake-build-debug/CMakeFiles/lab1_1.dir
+/Users/thenemez/Desktop/proga/cpp_labs/tests_labs/lab1_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thenemez/Desktop/proga/cpp_labs/tests_labs/lab1_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

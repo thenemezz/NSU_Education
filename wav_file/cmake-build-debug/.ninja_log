@@ -1,0 +1,5 @@
+# ninja log v5
+793	961	7241567306602587	sound_processor.exe	b13b87fd1c3d9939
+0	954	1703331359542052632	CMakeFiles/sound_processor.dir/main.cpp.o	6d0991c93d00a3dd
+1	1026	1703331359616377401	CMakeFiles/sound_processor.dir/converters/Converters.cpp.o	141b6daa487e53df
+5	805	1703331598462207928	CMakeFiles/sound_processor.dir/util/Util.cpp.o	84ac2bec2168822d
