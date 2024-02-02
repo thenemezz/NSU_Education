@@ -17,21 +17,23 @@ public class Main {
         Reader reader = null;
         try {
             reader = new InputStreamReader(new FileInputStream(fileName + ".txt"));
-            String currentWord = "";
+            StringBuilder currentWordBuilder = new StringBuilder();
             int currentChar;
             Map<String, Integer> wordCounterMap = new HashMap<>();
 
             while ((currentChar = reader.read()) != -1) {
-                if (Character.isLetterOrDigit((char) currentChar)) {
-                     currentWord += (char) currentChar;
-                }
-                else {
+                char currentCharacter = (char) currentChar;
+
+                if (Character.isLetterOrDigit(currentCharacter)) {
+                    currentWordBuilder.append(currentCharacter);
+                } else {
+                    String currentWord = currentWordBuilder.toString();
                     wordCounterMap.merge(currentWord, 1, Integer::sum);
-                    currentWord = "";
+                    currentWordBuilder.setLength(0); // Очищаем StringBuilder для следующего слова
                     ++totalFrequency;
                 }
             }
-            // хз как красИвей отсортировать мапу
+
             Map<String, Integer> sortedMap = wordCounterMap.entrySet()
                     .stream()
                     .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
@@ -46,7 +48,6 @@ public class Main {
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFilePath))) {
                 writer.write("Word,Frequency,Frequency(%)\n");
 
-                // Записываем данные из хеш-таблицы
                 for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
                     writer.write(entry.getKey() + "," + entry.getValue() + "," + String.format("%.0f", ((double) entry.getValue() / totalFrequency) * 100.0) + "\n");
                 }
@@ -81,13 +82,3 @@ public class Main {
 
     }
 }
-
-//сортировка мапы другая
-//            wordCounterMap.entrySet().stream()
-//                    .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-//                    .forEach(System.out::println);
-
-//вывод отсортированной мапы
-//            for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
-//                System.out.println(entry.getKey() + " (частота: " + entry.getValue() + ")");
-//            }
