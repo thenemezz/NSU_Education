@@ -1,0 +1,9 @@
++ ru.nsu.thenemez.Commands.Plus
+- ru.nsu.thenemez.Commands.Minus
+* ru.nsu.thenemez.Commands.Multiply
+/ ru.nsu.thenemez.Commands.Division
+PUSH ru.nsu.thenemez.Commands.Push
+POP ru.nsu.thenemez.Commands.Pop
+DEFINE ru.nsu.thenemez.Commands.Define
+SQRT ru.nsu.thenemez.Commands.Sqrt
+PRINT ru.nsu.thenemez.Commands.Print

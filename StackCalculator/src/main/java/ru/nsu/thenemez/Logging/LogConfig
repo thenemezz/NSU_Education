@@ -1,0 +1,11 @@
+# Настройки глобального логгера
+handlers =java.util.logging.FileHandler
+.level=ALL
+# конфиг файлового хендлера
+# java.util.logging.FileHandler =false
+java.util.logging.FileHandler.level =ALL
+#просто текст
+java.util.logging.FileHandler.formatter =java.util.logging.SimpleFormatter
+java.util.logging.FileHandler.limit =1000000
+# запись логов.
+java.util.logging.FileHandler.pattern   =./src/CalculatorLog.txt

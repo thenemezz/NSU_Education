@@ -1,0 +1,79 @@
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Logging.MyLogger <clinit>
+CONFIG: Logger configuration loaded.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Calculator.Calculator <init>
+INFO: Calculator constructor success done.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Fabric.CommandCreator loadCommands
+INFO: Command creator has created commands.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "a" has defined by 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "b" has defined by 8.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: a
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: b
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Plus action
+INFO: Plus: 8.0 + 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Print action
+INFO: Print top element of stack: 12.0
+
+мар. 16, 2024 12:00:15 AM org.junit.jupiter.engine.execution.ConditionEvaluator logResult
+FINER: Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] on [public void test.multCheck()] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Calculator.Calculator <init>
+INFO: Calculator constructor success done.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Fabric.CommandCreator loadCommands
+INFO: Command creator has created commands.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "a" has defined by 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "b" has defined by 8.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: a
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: b
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Multiply action
+INFO: Multiply: 8.0 * 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Print action
+INFO: Print top element of stack: 32.0
+
+мар. 16, 2024 12:00:15 AM org.junit.jupiter.engine.execution.ConditionEvaluator logResult
+FINER: Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] on [public void test.minusCheck()] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Calculator.Calculator <init>
+INFO: Calculator constructor success done.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Fabric.CommandCreator loadCommands
+INFO: Command creator has created commands.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "a" has defined by 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Define action
+INFO: The variable "b" has defined by 8.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: a
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Push action
+INFO: Push variable on stack: b
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Minus action
+INFO: Minus: 8.0 - 4.0.
+
+мар. 16, 2024 12:00:15 AM ru.nsu.thenemez.Commands.Print action
+INFO: Print top element of stack: 4.0
+
