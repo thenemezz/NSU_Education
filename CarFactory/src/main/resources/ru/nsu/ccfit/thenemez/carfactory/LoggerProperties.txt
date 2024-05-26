@@ -1,0 +1,10 @@
+# Настройки глобального логгера
+handlers =java.util.logging.FileHandler
+.level=ALL
+# Конфигурация файлового хендлера
+# java.util.logging.FileHandler =false
+java.util.logging.FileHandler.level =INFO
+java.util.logging.FileHandler.formatter =java.util.logging.SimpleFormatter
+# java.util.logging.FileHandler.append  =true
+java.util.logging.FileHandler.limit =1000000
+java.util.logging.FileHandler.pattern   =src/main/resources/ru/nsu/ccfit/thenemez/carfactory/LogFile.txt
