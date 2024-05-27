@@ -1,0 +1,36 @@
+мая 26, 2024 11:06:23 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 92980302-c5b6-46c2-97a8-75e4225bd0e1, Engine 5d228a5a-ed32-44e3-aa84-20911effa2f8, Body 48a4495b-929c-41ee-8234-765689988fac, Accessories ecd4b5fc-f997-4e95-a91c-85ae16778e16
+мая 26, 2024 11:06:38 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: f2c102f5-1f9a-4867-9d8f-9a80bd0f2e85, Engine f86fa296-f767-4a3a-9168-d7a9d36c58f9, Body 6113431b-cf45-4dc8-aabc-b26e0c6ffc87, Accessories 4167052c-058d-4039-b09b-ffa5131c16ab
+мая 26, 2024 11:06:53 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: cf9fbbae-f098-424b-b46f-ebd4a880914a, Engine 1f9b1f1c-94d6-4e16-92c7-cc9ce0a2373c, Body aa5f19f2-d64a-4f1d-a194-6c69fd728f41, Accessories c1357891-e84a-4903-862e-caecead58d11
+мая 26, 2024 11:06:58 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 04271726-dfd8-4ea4-a712-ba541508b223, Engine 0fdd546d-687e-48f0-9b59-31e64bfff27e, Body 0a4e3006-a9c2-4691-8ef0-90904958b781, Accessories 1ef0ffb8-6901-4709-86bc-f2c57df6d99e
+мая 26, 2024 11:07:03 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: e7c1a02b-3b95-4297-8594-04fa14e09900, Engine b4831651-09c1-4701-b902-8ce5660afccb, Body 1d0aa7b1-8f02-4c67-9de9-663863197416, Accessories 34b686c9-3cdb-4f81-8fda-8c803fc6a156
+мая 26, 2024 11:07:08 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: b941fe77-fc4d-4519-ba2f-639299aaad04, Engine 56f00f29-d3ca-499d-ae83-80c53a5d93ed, Body 2739230e-c672-4ff2-9b3b-cb71e3cf9421, Accessories 7d57d476-181f-478b-908e-e3535451e1cf
+мая 26, 2024 11:07:13 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 6e5cfead-07b2-475b-b817-a7f1d98eaab1, Engine 1416b5c1-5af0-469a-93cd-d73b8b06610f, Body d2f36a20-a3e5-413d-b658-6c33ef8944f3, Accessories c6b8cf6c-8146-4db4-b9bc-db7d6070bfe1
+мая 26, 2024 11:07:18 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: e0aa3fe5-15f3-4b0a-bfbd-cc94305fbbb4, Engine bcabd9cc-b42b-4e0c-94bc-31df7283167e, Body ab76b84a-689b-4c0a-8e5b-1c1eae9413f9, Accessories fc97c593-e4fc-4a4f-adf7-e54dc35af812
+мая 26, 2024 11:07:23 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: c32c373f-3207-46d6-a402-f57453523808, Engine 4930d4e2-5721-4686-a849-b84ef885de33, Body d61475b4-97f8-4223-9e83-487174a7d152, Accessories 51fbb0c9-72ef-46a8-aebb-ef6995388ce2
+мая 26, 2024 11:07:28 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 8bc21f54-cf5b-4400-8a13-c791e3b65634, Engine b9343905-c567-478a-b906-82065c6dd2dc, Body bb5d0027-110a-4711-95b3-ddcdf35494a6, Accessories eee5f64f-7a31-4ce9-b6e0-9a180196ca0f
+мая 26, 2024 11:07:33 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 01032ab9-6774-4693-a5b5-004111927ef0, Engine bf7dcbfa-221a-4ee6-917d-be7cf01383a9, Body b8158086-f95e-498b-8452-d1bdbc848361, Accessories 869cb756-1c24-4d2d-a34e-cdb9a1596e06
+мая 26, 2024 11:07:38 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 467674ec-2289-484e-b69d-f18068546674, Engine 5ba5d64f-6349-4dca-b0f6-8477ad3cb7fc, Body 98ee9494-8ea9-46e5-bc9d-8519978770f6, Accessories c167dd4c-2991-44cc-b25a-da62350fd0c4
+мая 26, 2024 11:07:43 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 11a0cfd4-8096-47ab-96bc-8d0e7776b73c, Engine cb45982f-c1dc-40bd-98c1-8ef0bda57b20, Body 72235b65-689b-4ede-9be7-184cfb634b24, Accessories 8ccd05db-2c6c-4941-83e2-575a8153cd71
+мая 26, 2024 11:07:48 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 938cf789-6368-4274-a31c-52c3062c51e8, Engine 8d8f9096-da09-418e-a5a1-849acfea6917, Body e0c84557-a46f-4e5e-b824-3de38d711e41, Accessories ec0e66de-83b0-4f3c-970d-95b7d990adb3
+мая 26, 2024 11:07:53 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 5eb1f6aa-e461-4770-8fa1-0c09e9c8a89b, Engine ac504814-6f2b-4335-a308-907e9c230af7, Body b4f60558-bbaf-4b89-bcb1-2fc4794a6eaa, Accessories ce81ed08-667a-4e29-a246-29dd6656f091
+мая 26, 2024 11:07:58 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 4df0c633-3079-468a-a358-013756c7d3f4, Engine cfee72d2-469a-4e17-87d6-d4c6dc41bb1d, Body 7581a95d-f927-41f7-bb33-fe9aaef2190c, Accessories c431ac79-604f-4a55-898e-4fc5d24e94a6
+мая 26, 2024 11:08:03 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 9870e26b-35b6-40af-a89d-6ff6565ddbfb, Engine 62c326f3-ee90-4c70-86d9-9d36cd41e091, Body 2a885e73-6ef2-41cd-a7ba-b1f9c1982336, Accessories 17affb2f-d68b-428f-8334-2e0d7eee5a01
+мая 26, 2024 11:08:08 PM ru.nsu.ccfit.thenemez.carfactory.dealers.Dealer run
+INFO: Buy new car: Auto: 992afd2d-1a9b-4c69-8c3a-d9e4f3ec7d41, Engine 5033dd3c-5399-4be3-abcc-718196f00eb7, Body edc2a694-04da-4183-a03c-1393cf2d3221, Accessories ee0125cf-d0ad-4779-810c-162ba78effa7

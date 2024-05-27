@@ -39,9 +39,11 @@ public class Main extends Application {
             view.drawMenu(engineProducer, bodyProducer, accessoryProducer, dealer,autoStorageController);
 
             dealer.start();
+
             engineProducer.start();
             bodyProducer.start();
             accessoryProducer.start();
+
             autoStorageController.start();
 
 

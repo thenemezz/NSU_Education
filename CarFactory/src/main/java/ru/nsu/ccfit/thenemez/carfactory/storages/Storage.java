@@ -9,8 +9,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Storage<D extends Detail> {
 
-    private final LinkedList<D> itemList;
-    private final int storageCapacity;
+    protected final LinkedList<D> itemList;
+    protected final int storageCapacity;
     private final AtomicInteger storageFill;
     private final FillListener listener;
 

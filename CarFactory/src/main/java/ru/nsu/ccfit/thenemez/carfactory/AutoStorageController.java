@@ -8,11 +8,13 @@ import java.util.concurrent.TimeUnit;
 
 public class AutoStorageController extends Thread {
     private final Factory factory;
-    private  Double sleepTime;
+    private final AutoStorage autoStorage;
+    private Double sleepTime;
 
     public AutoStorageController(Factory factory, AutoStorage autoStorage) {
         this.factory = factory;
-        sleepTime = 1.0;
+        this.autoStorage = autoStorage;
+        this.sleepTime = 1.0;
     }
 
     public void setSleepTime(Double sleepTime) {
@@ -21,16 +23,22 @@ public class AutoStorageController extends Thread {
 
     @Override
     public void run() {
-            try {
-                while (!Thread.currentThread().isInterrupted()) {
+        try {
+            while (!Thread.currentThread().isInterrupted()) {
+                synchronized (autoStorage) {
+                    while (autoStorage.isFull()) {
+                        autoStorage.wait();
+                    }
+
                     factory.createAuto();
                     TimeUnit.MILLISECONDS.sleep((long) (sleepTime * 1000));
                 }
-            } catch (InterruptedException e) {
-                System.out.println(Arrays.toString(e.getStackTrace()));
-                Thread.currentThread().interrupt();
-            } catch (ExecutionException e) {
-                throw new RuntimeException(e);
             }
+        } catch (InterruptedException e) {
+            System.out.println(Arrays.toString(e.getStackTrace()));
+            Thread.currentThread().interrupt();
+        } catch (ExecutionException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
