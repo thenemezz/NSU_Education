@@ -28,13 +28,21 @@ public class Main extends Application {
             AutoStorage autoStorage = new AutoStorage(FactoryProperties.AUTO_STORAGE_SIZE, view);
 
             EngineProducer engineProducer = new EngineProducer(engineStorage);
+            engineProducer.setSleepTime(FactoryProperties.ENGINE_PRODUCER_SLEEP_TIME);
+
             BodyProducer bodyProducer = new BodyProducer(bodyStorage);
+            bodyProducer.setSleepTime(FactoryProperties.BODY_PRODUCER_SLEEP_TIME);
+
             AccessoryProducer accessoryProducer = new AccessoryProducer(accessoryStorage);
-        //
+            accessoryProducer.setSleepTime(FactoryProperties.ACCESSORY_PRODUCER_SLEEP_TIME);
+
             Factory factory = new Factory(engineStorage, bodyStorage, accessoryStorage, autoStorage, view);
-            //контроллер склада (если на складе достаточно -> хватит делать машины)
+
             AutoStorageController autoStorageController = new AutoStorageController(factory, autoStorage);
+            autoStorageController.setSleepTime(FactoryProperties.AUTO_STORAGE_CONTROLLER_SLEEP_TIME);
+
             Dealer dealer = new Dealer(autoStorage);
+            dealer.setSleepTime(FactoryProperties.DEALER_SLEEP_TIME);
 
             view.drawMenu(engineProducer, bodyProducer, accessoryProducer, dealer,autoStorageController);
 
@@ -45,7 +53,6 @@ public class Main extends Application {
             accessoryProducer.start();
 
             autoStorageController.start();
-
 
             Scene scene = new Scene(view.getRoot());
             stage.setScene(scene);

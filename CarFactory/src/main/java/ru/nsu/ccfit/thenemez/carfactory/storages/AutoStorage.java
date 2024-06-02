@@ -12,4 +12,5 @@ public class AutoStorage extends Storage<Auto> {
     public synchronized boolean isFull() {
         return itemList.size() >= storageCapacity;
     }
+
 }

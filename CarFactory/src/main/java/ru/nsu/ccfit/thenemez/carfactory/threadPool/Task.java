@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.concurrent.Callable;
 
 
-//Difference mejdu Runnable & Callable ->  https://www.baeldung.com/java-runnable-callable -> возвращает тип Auto + ..
+// https://www.baeldung.com/java-runnable-callable -> возвращает тип Auto
 public class Task implements Callable<Auto> {
     private final LinkedList<Storage<? extends Detail>> detailStorages;
 

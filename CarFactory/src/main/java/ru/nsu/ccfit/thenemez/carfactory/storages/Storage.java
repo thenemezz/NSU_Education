@@ -18,11 +18,9 @@ public class Storage<D extends Detail> {
         this.storageCapacity = storageCapacity;
         this.listener = listener;
         itemList = new LinkedList<>();
-        //https://www.digitalocean.com/community/tutorials/atomicinteger-java
         storageFill = new AtomicInteger(0);
 
     }
-    //WAIT
     public synchronized void put(D newDetail) {
         while (itemList.size() >= storageCapacity) {
             try {
@@ -32,12 +30,11 @@ public class Storage<D extends Detail> {
             }
         }
         itemList.add(newDetail);
-        storageFill.incrementAndGet();//this, value++
+        storageFill.incrementAndGet();
         Platform.runLater(() -> listener.updateFill(storageFill, this.getClass().getSimpleName()));
         System.out.println("Put new " + newDetail.getClass().getSimpleName() + ", id: " + newDetail.getID() + " fill:" + storageFill.intValue());
         notifyAll();
     }
-    //WAIT
     public synchronized D get() {
         while (itemList.isEmpty()) {
             try {
