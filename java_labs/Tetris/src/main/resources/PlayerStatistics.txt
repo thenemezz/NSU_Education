@@ -1,0 +1,7 @@
+Aiaal,12000;
+Sonya,340;
+Sergey,500;
+Art,200;
+Pop,3400;
+MalinkaVkorzinke,4000;
+Antony Banderas(Chumak),3500;
