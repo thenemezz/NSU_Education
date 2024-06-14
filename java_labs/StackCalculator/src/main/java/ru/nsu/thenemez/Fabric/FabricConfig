@@ -1,0 +1,9 @@
++ Commands.Plus
+- Commands.Minus
+* Commands.Multiply
+/ Commands.Division
+PUSH Commands.Push
+POP Commands.Pop
+DEFINE Commands.Define
+SQRT Commands.Sqrt
+PRINT Commands.Print
