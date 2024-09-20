@@ -7,8 +7,8 @@ import time
 import uuid
 
 PORT = 9999
-INTERVAL = 2
-EXPIRY_DURATION = 6
+INTERVAL = 3
+EXPIRY_DURATION = 9
 
 peers = {}
 peers_lock = threading.Lock()
@@ -45,7 +45,7 @@ def get_interface(config):
 
 
 def send(sock, addr):
-    print("Sending presence messages...")
+    print("Отправка сообщений..")
     while True:
         message = f"I'm here, ID: {my_id}".encode()
         sock.sendto(message, addr)
@@ -53,12 +53,12 @@ def send(sock, addr):
 
 
 def receive(sock):
-    print("Waiting for messages from other copies...")
+    print("Ожидание сообщений..")
     while True:
         data, addr = sock.recvfrom(1024)
         message = data.decode().strip()
         if "I'm here" in message and my_id not in message:
-            print(f"Received message from: {addr[0]} ({message})")
+            print(f"Получено сообщение: {addr[0]} ({message})")
             update_peer(f"{addr[0]} ({message})")
 
 
@@ -75,18 +75,18 @@ def check_alive_peers():
 
         for peer, last_seen in list(peers.items()):
             if now - last_seen > EXPIRY_DURATION:
-                print(f"Copy {peer} is no longer active, removing...")
+                print(f"Копия {peer} не активна, Удаляем...")
                 del peers[peer]
                 changed = True
             else:
                 active_peers.append(peer)
 
         if changed or active_peers:
-            print("Current active copies:")
+            print("Активные копии: ")
             for peer in active_peers:
                 last_seen = peers[peer]
-                print(f"- {peer} (last seen: {int(now - last_seen)} seconds ago)")
-            print("---------------------------")
+                print(f"- {peer} Последний раз был: {int(now - last_seen)} секунд назад. ")
+            print("|||||||||||||||||||||||||||||||||||||||")
 
 
 def main():
