@@ -1,4 +1,5 @@
 *.docx
-.idea
+*.idea
 *.mp4
 secondTask/test.txt
+secondTask/uploads/
