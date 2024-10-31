@@ -1,0 +1,36 @@
+
+2024-11-01 01:19:47,674 INFO Proxy is ready
+
+2024-11-01 01:20:08,027 INFO New client 127.0.0.1:58714
+
+2024-11-01 01:20:08,034 INFO Client 127.0.0.1:58714 sent ClientGreeting(VER=5, NMETHODS=2, METHODS=['NO AUTHENTICATION REQUIRED', 'GSSAPI'])
+
+2024-11-01 01:20:08,036 INFO Proxy sent ServerGreeting(VER=5, METHOD=NO AUTHENTICATION REQUIRED) to client 127.0.0.1:58714
+
+2024-11-01 01:20:08,037 INFO Client 127.0.0.1:58714 sent ClientRequest(VER=5, CMD=CONNECT, RSV=True, ATYP=DOMAINNAME, DST.ADDR=fit.ippolitov.me, DST.PORT=80)
+
+2024-11-01 01:20:08,042 INFO Proxy sent DNSRequest(domain_name='fit.ippolitov.me', message_id=0)
+
+2024-11-01 01:20:08,155 INFO Proxy received DNSResponse(message_id=0, ips=[IPv4Address('213.109.147.119')])
+
+2024-11-01 01:20:08,245 INFO New destination 213.109.147.119:80
+
+2024-11-01 01:20:08,246 INFO Proxy sent ServerReply(VER=5, REP=SUCCEEDED, RSV=True, ATYP=IP V4 address, BND.ADDR=127.0.0.1, BND.PORT=1080) to client 127.0.0.1:58714
+
+2024-11-01 01:20:08,247 INFO Client 127.0.0.1:58714 sent b'GET /CN_2/2024/5.htm' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'HTTP/1.1 200 OK\r\nSer' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'\xbd\xd0\xb0 \xd0\xba\xd0\xbe\xd1\x82\xd0\xbe\xd1\x80\xd0\xbe\xd0\xbc \xd0' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'\xb6\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb9 \xd0\xbe \xd1\x82\xd0\xbe\xd0\xbc,' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x87\xd0\xb5\xd0\xbd\xd0\xbd\xd0\xbe\xd0\xb5 \xd1' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'              <li>\xd0\x9a' ...
+
+2024-11-01 01:20:08,339 INFO Destination 213.109.147.119:80 sent b'\xb4\xd0\xb8\xd1\x82\xd0\xb5 \xd1\x81\xd0\xb0\xd0\xbc\xd0\xb8).\n ' ...
+
+2024-11-01 01:20:08,339 INFO Connection 127.0.0.1:58714 is closed
+
+2024-11-01 01:20:08,339 INFO Connection 213.109.147.119:80 is closed
