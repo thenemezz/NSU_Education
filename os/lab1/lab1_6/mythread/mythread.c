@@ -26,7 +26,7 @@ static mythread_data* id2data(mythread_t thread_id) {
 }
 
 static mythread_data* init_thread_stack() {
-    if (INITED == FALSE) {
+    if (INITED == FALSE) {//inited
         INITED = TRUE;
         for (int i = 0; i < NUM_THREADS; i++) {
             THREADS[i].thread_id = 0;
@@ -36,7 +36,7 @@ static mythread_data* init_thread_stack() {
     int stack_index = -1;
 
     for (int i = 0; i < NUM_THREADS; ++i) {
-        if (THREADS[i].thread_id == 0) {
+        if (THREADS[i].thread_id == 0) { // проверяет два раза
             stack_index = i;
             break;
         } else {
