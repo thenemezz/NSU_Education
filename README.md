@@ -5,3 +5,4 @@
 # Третий курс
 - [Сетевые технологии](https://github.com/thenemezz/NSU_Education/tree/main/networks)
 - [ООАиД](https://github.com/wrongjunior/hw-manager)
+- [Операционные системы](https://github.com/thenemezz/NSU_Education/tree/main/os)
